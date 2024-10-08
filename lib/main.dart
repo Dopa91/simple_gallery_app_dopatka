@@ -15,7 +15,9 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const StartPage(),
-      routes: {'/gallerybottomnav': (context) => const GalleryBottomNavPage()},
+      routes: {
+        '/gallerybottomnav': (context) => const GalleryBottomNavPage(),
+      },
     );
   }
 }
