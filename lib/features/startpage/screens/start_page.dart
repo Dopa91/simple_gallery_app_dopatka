@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:simple_gallery_app_dopatka/features/startpage/widgets/build_button.dart';
+import 'package:simple_gallery_app_dopatka/features/startpage/widgets/image_slider.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({super.key});
@@ -15,53 +15,12 @@ class StartPage extends StatelessWidget {
                   fontSize: 28,
                   fontWeight: FontWeight.w600,
                   color: Colors.white))),
-      backgroundColor: const Color.fromARGB(255, 112, 146, 171),
+      backgroundColor: const Color.fromARGB(255, 136, 214, 253),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Center(
-                child: ImageSlideshow(
-              disableUserScrolling: true,
-              height: 512,
-              indicatorRadius: 0,
-              isLoop: true,
-              autoPlayInterval: 4200,
-              children: [
-                Image.asset(
-                  "assets/images/basketball_1.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/basketball_2.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/bike.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/running.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/ski.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/soccer.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/tennis_1.jpeg",
-                  fit: BoxFit.cover,
-                ),
-                Image.asset(
-                  "assets/images/tennis_2.jpeg",
-                  fit: BoxFit.cover,
-                ),
-              ],
-            )),
+            const Center(child: ImageSlider()),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 32),
               child: Text(
