@@ -3,6 +3,12 @@ class GalleryItem {
   String imageDate;
   String imageDescription;
   String imagePath;
+
+  GalleryItem(
+      {required this.imageDate,
+      required this.imageDescription,
+      required this.imagePath,
+      required this.imageTitle});
 }
 
 List<GalleryItem> galleryData = [
