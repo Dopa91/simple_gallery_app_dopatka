@@ -13,7 +13,7 @@ class GalleryBottomNavPage extends StatefulWidget {
 class _GalleryBottomNavPageState extends State<GalleryBottomNavPage> {
   final List<Widget> widgets = [
     MyGalleryPage(
-      pictureItem: galleryDataList,
+      dataList: galleryDataList,
     ),
     const AboutMePage(),
   ];
