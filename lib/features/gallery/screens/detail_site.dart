@@ -9,28 +9,40 @@ class DetailSite extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(182, 136, 214, 253),
+      backgroundColor: const Color.fromARGB(255, 136, 214, 253),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 112, 146, 170),
-        title: const Text("Gallery Details"),
+        title: const Text(
+          "Gallery Details",
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Image.asset(item.imagePath),
-            Text(
-              item.imageTitle,
-              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              item.imageDate,
-              style: const TextStyle(fontSize: 16),
-            ),
-            Text(item.imageDescription)
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Image.asset(item.imagePath),
+              const SizedBox(
+                height: 32,
+              ),
+              Text(
+                item.imageTitle,
+                style:
+                    const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                item.imageDate,
+                style:
+                    const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
+              ),
+              const SizedBox(
+                height: 32,
+              ),
+              Text(item.imageDescription)
+            ],
+          ),
         ),
       ),
     );
