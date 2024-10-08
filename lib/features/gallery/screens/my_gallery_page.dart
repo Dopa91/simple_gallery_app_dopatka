@@ -26,7 +26,10 @@ class MyGalleryPage extends StatelessWidget {
           return ListTile(
             title: Text(dataList[index].imageTitle),
             subtitle: Text(dataList[index].imageDate),
-            leading: Image.asset(dataList[index].imagePath),
+            leading: Image.asset(
+              dataList[index].imagePath,
+              width: 128,
+            ),
             trailing: GestureDetector(
                 onTap: () {
                   Navigator.of(context).push(
