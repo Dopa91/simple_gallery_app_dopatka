@@ -6,12 +6,14 @@ class BuildButton extends StatelessWidget {
     required this.newText,
     required this.nextSite,
     required this.icon,
+    required this.color,
   });
 
   final IconData? icon;
 
   final String newText;
   final void Function()? nextSite;
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +22,7 @@ class BuildButton extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 16, 97, 219),
+          color: color,
           borderRadius: BorderRadius.circular(32),
         ),
         child: Row(
