@@ -29,7 +29,11 @@ class MyGalleryPage extends StatelessWidget {
           ),
           Expanded(
             child: ListView.separated(
-              separatorBuilder: (context, index) => const Divider(),
+              separatorBuilder: (context, index) => const Divider(
+                color: Color.fromARGB(255, 112, 146, 170),
+                height: 6,
+                thickness: 6,
+              ),
               itemCount: dataList.length,
               itemBuilder: (context, index) {
                 return ListTile(
