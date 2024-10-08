@@ -18,7 +18,7 @@ class _GalleryBottomNavPageState extends State<GalleryBottomNavPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: NavigationBar(
-        backgroundColor: const Color.fromARGB(255, 112, 146, 171),
+        backgroundColor: const Color.fromARGB(255, 112, 146, 170),
         indicatorColor: const Color.fromARGB(182, 136, 214, 253),
         selectedIndex: currentIndex,
         onDestinationSelected: (index) {
