@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:simple_gallery_app_dopatka/features/gallery/models/gallery_item.dart';
 import 'package:simple_gallery_app_dopatka/features/gallery/screens/detail_site.dart';
-import 'package:simple_gallery_app_dopatka/features/startpage/widgets/image_slider.dart';
+import 'package:simple_gallery_app_dopatka/features/shared/image_slider.dart';
 
 class MyGalleryPage extends StatelessWidget {
   const MyGalleryPage({super.key, required this.dataList});
