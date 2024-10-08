@@ -21,7 +21,11 @@ class StartPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Center(
-              child: ImageSlider(),
+              child: ImageSlider(
+                imageHeight: 512,
+                indiRadius: 0,
+                scrollStop: true,
+              ),
             ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 32),

@@ -4,14 +4,21 @@ import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 class ImageSlider extends StatelessWidget {
   const ImageSlider({
     super.key,
+    required this.imageHeight,
+    required this.indiRadius,
+    required this.scrollStop,
   });
+
+  final double imageHeight;
+  final double indiRadius;
+  final bool scrollStop;
 
   @override
   Widget build(BuildContext context) {
     return ImageSlideshow(
-      disableUserScrolling: true,
-      height: 512,
-      indicatorRadius: 0,
+      disableUserScrolling: scrollStop,
+      height: imageHeight,
+      indicatorRadius: indiRadius,
       isLoop: true,
       autoPlayInterval: 3000,
       children: [
