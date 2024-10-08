@@ -34,7 +34,7 @@ class _GalleryBottomNavPageState extends State<GalleryBottomNavPage> {
               label: "Gallery"),
           NavigationDestination(
               icon: Icon(
-                Icons.settings,
+                Icons.person_3,
                 color: Colors.white,
               ),
               label: "About me"),
