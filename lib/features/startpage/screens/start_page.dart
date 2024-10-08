@@ -20,7 +20,9 @@ class StartPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Center(child: ImageSlider()),
+            const Center(
+              child: ImageSlider(),
+            ),
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 32),
               child: Text(
@@ -41,6 +43,7 @@ class StartPage extends StatelessWidget {
                 nextSite: () =>
                     Navigator.pushNamed(context, "/gallerybottomnav"),
                 icon: Icons.arrow_forward,
+                color: const Color.fromARGB(255, 112, 146, 170),
               ),
             ),
             const SizedBox(
