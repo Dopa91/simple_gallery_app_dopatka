@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:simple_gallery_app_dopatka/about_me_page.dart';
-import 'package:simple_gallery_app_dopatka/my_gallery_page.dart';
+import 'package:simple_gallery_app_dopatka/features/about_me/screens/about_me_page.dart';
+import 'package:simple_gallery_app_dopatka/features/gallery_page/screens/my_gallery_page.dart';
 
 class GalleryBottomNavPage extends StatefulWidget {
   const GalleryBottomNavPage({super.key});

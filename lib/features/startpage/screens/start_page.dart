@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-import 'package:simple_gallery_app_dopatka/build_button.dart';
+import 'package:simple_gallery_app_dopatka/features/startpage/widgets/build_button.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({super.key});
