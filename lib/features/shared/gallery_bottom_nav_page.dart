@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:simple_gallery_app_dopatka/features/about_me/screens/about_me_page.dart';
+import 'package:simple_gallery_app_dopatka/features/gallery/repositories/gallery_data.dart';
 import 'package:simple_gallery_app_dopatka/features/gallery/screens/my_gallery_page.dart';
 
 class GalleryBottomNavPage extends StatefulWidget {
@@ -10,7 +11,12 @@ class GalleryBottomNavPage extends StatefulWidget {
 }
 
 class _GalleryBottomNavPageState extends State<GalleryBottomNavPage> {
-  final List<Widget> widgets = [const MyGalleryPage(), const AboutMePage()];
+  final List<Widget> widgets = [
+    MyGalleryPage(
+      pictureItem: galleryDataList,
+    ),
+    const AboutMePage(),
+  ];
 
   int currentIndex = 0;
 
