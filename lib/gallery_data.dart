@@ -1,6 +1,8 @@
 class GalleryItem {
   String imageTitle;
   String imageDate;
+  String imageDescription;
+  String imagePath;
 }
 
 List<GalleryItem> galleryData = [
