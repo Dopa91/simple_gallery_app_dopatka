@@ -10,7 +10,7 @@ class StartPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           forceMaterialTransparency: true,
-          title: const Text("Andy´s Simple-Gallery-App",
+          title: const Text("Andy´s-Simple-Gallery-App",
               style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.w600,
