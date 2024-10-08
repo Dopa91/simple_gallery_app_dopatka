@@ -41,7 +41,8 @@ class MyGalleryPage extends StatelessWidget {
                   subtitle: Text(dataList[index].imageDate),
                   leading: Image.asset(
                     dataList[index].imagePath,
-                    width: 128,
+                    width: 164,
+                    fit: BoxFit.cover,
                   ),
                   trailing: GestureDetector(
                       onTap: () {
