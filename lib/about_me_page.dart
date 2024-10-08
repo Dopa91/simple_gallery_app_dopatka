@@ -9,7 +9,7 @@ class AboutMePage extends StatelessWidget {
       backgroundColor: const Color.fromARGB(182, 136, 214, 253),
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: const Color.fromARGB(255, 112, 146, 171),
+        backgroundColor: const Color.fromARGB(255, 112, 146, 170),
         title: const Text(
           "About me",
           style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
