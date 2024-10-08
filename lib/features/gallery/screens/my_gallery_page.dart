@@ -10,7 +10,7 @@ class MyGalleryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(182, 136, 214, 253),
+      backgroundColor: const Color.fromARGB(255, 136, 214, 253),
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: const Color.fromARGB(255, 112, 146, 170),
