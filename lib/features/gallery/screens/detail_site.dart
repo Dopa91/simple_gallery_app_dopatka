@@ -40,7 +40,10 @@ class DetailSite extends StatelessWidget {
               const SizedBox(
                 height: 32,
               ),
-              Text(item.imageDescription)
+              Text(item.imageDescription),
+              const SizedBox(
+                height: 64,
+              ),
             ],
           ),
         ),
