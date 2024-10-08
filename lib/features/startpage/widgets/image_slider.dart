@@ -13,7 +13,7 @@ class ImageSlider extends StatelessWidget {
       height: 512,
       indicatorRadius: 0,
       isLoop: true,
-      autoPlayInterval: 4200,
+      autoPlayInterval: 3000,
       children: [
         Image.asset(
           "assets/images/basketball_1.jpeg",
