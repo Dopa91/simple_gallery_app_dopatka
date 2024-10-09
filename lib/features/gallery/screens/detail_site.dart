@@ -9,6 +9,14 @@ class DetailSite extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.of(context).pop(),
+        backgroundColor: const Color.fromARGB(255, 112, 146, 170),
+        child: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
+      ),
       backgroundColor: const Color.fromARGB(255, 136, 214, 253),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 112, 146, 170),
