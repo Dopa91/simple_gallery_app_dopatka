@@ -12,7 +12,8 @@ class AboutMePage extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 112, 146, 170),
         title: const Text(
           "About me",
-          style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
+          style: TextStyle(
+              fontWeight: FontWeight.w300, color: Colors.white, fontSize: 32),
         ),
       ),
       body: const SafeArea(
