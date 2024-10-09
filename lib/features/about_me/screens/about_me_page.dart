@@ -42,7 +42,7 @@ class AboutMePage extends StatelessWidget {
                 height: 22,
               ),
               SizedBox(
-                height: 256,
+                height: 312,
                 width: 256,
                 child: ListView(
                   children: const [
