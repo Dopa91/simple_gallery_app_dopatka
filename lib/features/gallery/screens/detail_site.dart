@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:simple_gallery_app_dopatka/features/gallery/models/gallery_item.dart';
 
 class DetailSite extends StatelessWidget {
-  final PictureItem item;
-
   const DetailSite({super.key, required this.item});
+
+  final PictureItem item;
 
   @override
   Widget build(BuildContext context) {
