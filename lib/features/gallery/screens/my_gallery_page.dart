@@ -17,7 +17,8 @@ class MyGalleryPage extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 112, 146, 170),
         title: const Text(
           "Andy´s Gallery",
-          style: TextStyle(fontWeight: FontWeight.w600, color: Colors.white),
+          style: TextStyle(
+              fontWeight: FontWeight.w300, color: Colors.white, fontSize: 32),
         ),
       ),
       body: Column(
@@ -37,7 +38,12 @@ class MyGalleryPage extends StatelessWidget {
               itemCount: dataList.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text(dataList[index].imageTitle),
+                  title: Text(
+                    dataList[index].imageTitle,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
                   subtitle: Text(dataList[index].imageDate),
                   leading: Image.asset(
                     dataList[index].imagePath,
@@ -54,7 +60,10 @@ class MyGalleryPage extends StatelessWidget {
                           ),
                         );
                       },
-                      child: const Icon(Icons.slideshow)),
+                      child: const Icon(
+                        Icons.next_plan_outlined,
+                        size: 42,
+                      )),
                 );
               },
             ),
