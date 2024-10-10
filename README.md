@@ -10,4 +10,3 @@ um eine intuitive und ansprechende Benutzererfahrung zu schaffen.
 
 Das Ergebnis ist eine selbst entworfene Galerie-App,
 die eine einfache Navigation und eine detailreiche Bilddarstellung ermöglicht – ganz nach meinen Vorstellungen.
-
