@@ -9,12 +9,13 @@ class StartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          forceMaterialTransparency: true,
-          title: const Text("Andy´s-Simple-Gallery-App",
-              style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white))),
+        forceMaterialTransparency: true,
+        title: const Text(
+          "Simple-Gallery-App",
+          style: TextStyle(
+              fontWeight: FontWeight.w300, color: Colors.white, fontSize: 32),
+        ),
+      ),
       backgroundColor: const Color.fromARGB(255, 112, 146, 170),
       body: SafeArea(
         child: Column(
@@ -32,9 +33,9 @@ class StartPage extends StatelessWidget {
               child: Text(
                 "Herzlich Willkommen",
                 style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white),
+                    fontWeight: FontWeight.w400,
+                    color: Colors.white,
+                    fontSize: 32),
               ),
             ),
             const SizedBox(height: 32),
@@ -48,7 +49,7 @@ class StartPage extends StatelessWidget {
                     Navigator.pushNamed(context, "/gallerybottomnav"),
                 icon: Icons.arrow_forward,
                 color: const Color.fromARGB(255, 136, 214, 253),
-                textColor: Colors.white,
+                textColor: const Color.fromARGB(255, 248, 252, 255),
                 textSize: 18,
               ),
             ),
