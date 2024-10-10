@@ -40,14 +40,18 @@ class MyGalleryPage extends StatelessWidget {
                 return ListTile(
                   title: Text(
                     dataList[index].imageTitle,
+                    textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontWeight: FontWeight.w500,
                     ),
                   ),
-                  subtitle: Text(dataList[index].imageDate),
+                  subtitle: Text(
+                    dataList[index].imageDate,
+                    textAlign: TextAlign.center,
+                  ),
                   leading: Image.asset(
                     dataList[index].imagePath,
-                    width: 164,
+                    width: 96,
                     fit: BoxFit.cover,
                   ),
                   trailing: GestureDetector(
@@ -61,8 +65,8 @@ class MyGalleryPage extends StatelessWidget {
                         );
                       },
                       child: const Icon(
-                        Icons.next_plan_outlined,
-                        size: 42,
+                        Icons.info_outline_rounded,
+                        size: 32,
                       )),
                 );
               },
