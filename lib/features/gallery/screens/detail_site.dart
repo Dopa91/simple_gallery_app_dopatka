@@ -54,7 +54,7 @@ class DetailSite extends StatelessWidget {
                 style: const TextStyle(
                     fontWeight: FontWeight.w500,
                     fontStyle: FontStyle.italic,
-                    fontSize: 16),
+                    fontSize: 17),
               ),
               const SizedBox(
                 height: 64,
