@@ -7,6 +7,8 @@ class BuildButton extends StatelessWidget {
     required this.nextSite,
     required this.icon,
     required this.color,
+    required this.textColor,
+    required this.textSize,
   });
 
   final IconData? icon;
@@ -14,6 +16,8 @@ class BuildButton extends StatelessWidget {
   final String newText;
   final void Function()? nextSite;
   final Color color;
+  final Color textColor;
+  final double textSize;
 
   @override
   Widget build(BuildContext context) {
@@ -32,10 +36,10 @@ class BuildButton extends StatelessWidget {
             ),
             Text(
               newText,
-              style: const TextStyle(
-                  fontSize: 16,
+              style: TextStyle(
+                  fontSize: textSize,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white),
+                  color: textColor),
             ),
             const Expanded(child: SizedBox()),
             Icon(
