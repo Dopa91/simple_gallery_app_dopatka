@@ -48,6 +48,8 @@ class StartPage extends StatelessWidget {
                     Navigator.pushNamed(context, "/gallerybottomnav"),
                 icon: Icons.arrow_forward,
                 color: const Color.fromARGB(255, 136, 214, 253),
+                textColor: Colors.white,
+                textSize: 18,
               ),
             ),
             const SizedBox(
