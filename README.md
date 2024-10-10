@@ -22,7 +22,5 @@ $~$
 
 $~$
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/0a65d192-5293-4d41-95d5-36e07cd1a6aa">
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/260b1850-46af-4377-bbc5-ae00afb25d58">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/d868e137-073a-4523-93f8-d4ff810b3997">
-
-
