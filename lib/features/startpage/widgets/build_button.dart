@@ -38,7 +38,7 @@ class BuildButton extends StatelessWidget {
               newText,
               style: TextStyle(
                   fontSize: textSize,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w600,
                   color: textColor),
             ),
             const Expanded(child: SizedBox()),
