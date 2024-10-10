@@ -49,7 +49,13 @@ class DetailSite extends StatelessWidget {
               const SizedBox(
                 height: 32,
               ),
-              Text(item.imageDescription),
+              Text(
+                item.imageDescription,
+                style: const TextStyle(
+                    fontWeight: FontWeight.w500,
+                    fontStyle: FontStyle.italic,
+                    fontSize: 16),
+              ),
               const SizedBox(
                 height: 64,
               ),
