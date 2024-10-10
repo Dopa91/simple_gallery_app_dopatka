@@ -22,7 +22,8 @@ class DetailSite extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 112, 146, 170),
         title: const Text(
           "Gallery Details",
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+          style: TextStyle(
+              fontWeight: FontWeight.w300, color: Colors.white, fontSize: 32),
         ),
       ),
       body: Padding(
