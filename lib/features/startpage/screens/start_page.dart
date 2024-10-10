@@ -15,7 +15,7 @@ class StartPage extends StatelessWidget {
                   fontSize: 28,
                   fontWeight: FontWeight.w600,
                   color: Colors.white))),
-      backgroundColor: const Color.fromARGB(255, 136, 214, 253),
+      backgroundColor: const Color.fromARGB(255, 112, 146, 170),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -47,7 +47,7 @@ class StartPage extends StatelessWidget {
                 nextSite: () =>
                     Navigator.pushNamed(context, "/gallerybottomnav"),
                 icon: Icons.arrow_forward,
-                color: const Color.fromARGB(255, 112, 146, 170),
+                color: const Color.fromARGB(255, 136, 214, 253),
               ),
             ),
             const SizedBox(
@@ -59,3 +59,7 @@ class StartPage extends StatelessWidget {
     );
   }
 }
+
+
+// Color from background firstTry: Color.fromARGB(255, 136, 214, 253),
+// Color from button firstTry: Color.fromARGB(255, 112, 146, 170),
