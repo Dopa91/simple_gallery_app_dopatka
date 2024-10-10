@@ -9,3 +9,9 @@ Ziel des Projekts war es, die Funktionen und das Design der Galerie nach meinen 
 um eine intuitive und ansprechende Benutzererfahrung zu schaffen.
 Das Ergebnis ist eine selbst entworfene Galerie-App,
 die eine einfache Navigation und eine detailreiche Bilddarstellung ermöglicht – ganz nach meinen Vorstellungen.
+
+
+![alt text](<../../Downloads/Simulator Screenshot - iPhone 16 Plus - 2024-10-10 at 12.45.19.png>)
+![alt text](<../../Downloads/Simulator Screenshot - iPhone 16 Plus - 2024-10-10 at 12.45.31.png>)
+![alt text](<../../Downloads/Simulator Screenshot - iPhone 16 Plus - 2024-10-10 at 12.46.10.png>)
+![alt text](<../../Downloads/Simulator Screenshot - iPhone 16 Plus - 2024-10-10 at 12.46.42.png>)
