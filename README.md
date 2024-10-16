@@ -20,10 +20,7 @@ $~$
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/1dbbb91d-1668-4fe9-9dc3-be680b9be734">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/e1d6f5b1-c4f4-4ba4-906f-d0921a57b07c">
 
-$~$
+</br>
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/260b1850-46af-4377-bbc5-ae00afb25d58">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/d868e137-073a-4523-93f8-d4ff810b3997">
-
-
-
